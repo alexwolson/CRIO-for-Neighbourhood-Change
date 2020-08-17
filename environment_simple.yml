@@ -1,0 +1,30 @@
+name: crio
+channels:
+  - gurobi
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - geopandas
+  - gurobi
+  - h5py
+  - hdf4
+  - hdf5
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - nltk
+  - numpy
+  - pandas
+  - pip
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - shapely
+  - tqdm
+  - pip:
+    - simpledbf
+    - smopy
